@@ -104,7 +104,7 @@ function App() {
               </li>
             ))}
             <li>
-              <a className="btn btn-primary nav-resume-btn"  href="public/resume.pdf" download>
+              <a className="btn btn-primary nav-resume-btn"  href="/resume.pdf" download>
                 Download Resume
               </a>
             </li>
@@ -134,7 +134,7 @@ function App() {
             <div className="hero-photo-card">
               <img
                 className="hero-photo w-full h-full object-top-left"
-                src="public/pic.jpeg"
+                src="/pic.jpeg"
                 alt="Developer portrait"
               />
 
